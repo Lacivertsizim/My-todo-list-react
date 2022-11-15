@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(84, 68, 40);
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  footer div {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+  }
+  
+  footer div a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+  }
+  
+  footer div a:hover{
+  color: rgb(255, 255, 255)
+  }
